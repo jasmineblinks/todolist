@@ -13,3 +13,7 @@ document.body.onkeyup = function(e) {
      return toDo();
     }
   };
+
+  const removeItem = (e) => {
+    e.target.parentElement.removeChild(e.target);
+  }
