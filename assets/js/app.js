@@ -7,3 +7,9 @@ const toDo = () => {
     document.getElementById("my_list").value = "";
     li.onclick = removeItem;
 }
+
+document.body.onkeyup = function(e) {
+    if (e.keyCode == 13) {
+      toDO();
+    }
+  };
