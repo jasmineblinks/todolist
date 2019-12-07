@@ -10,6 +10,6 @@ const toDo = () => {
 
 document.body.onkeyup = function(e) {
     if (e.keyCode === 13) {
-      toDO();
+     return toDo();
     }
   };
